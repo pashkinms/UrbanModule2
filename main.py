@@ -1,4 +1,3 @@
-
 print('Hi, PyCharm')
 x = 43
 y = 32
