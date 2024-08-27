@@ -4,14 +4,13 @@ primes = []
 not_primes = []
 
 for i in numbers:
-    print(i)
     counter = 0
-    for k in range(1, i+1):
-       if i % k == 0:
-           counter+=1
+    for k in range(1, i + 1):
+        if i % k == 0:
+            counter += 1
     if counter > 2:
         not_primes.append(i)
-    else:
+    elif i != 1:
         primes.append(i)
 
 print("Primes are: ", primes)
